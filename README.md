@@ -1,11 +1,8 @@
-
-
-<!-- LOGO -->
-<br />
 <h1>
 <p align="center">
-  <img src="">
-  <br>SOS: SORT OR SUFFOCATE
+  <br>     ==================
+  <br>++| SOS: SORT OR SUFFOCATE |++
+  <br>   ==================
 </h1>
   <p align="center">
     "Will you be remembered as a hero or will you perish in the waste"
@@ -14,20 +11,17 @@
 </p>
 
 
-<p align="center">
-  
-                                                                                                                        
-                                                                                                                                                      
-## About The Project
-SOS: Sort or Suffocate is a text-based game created using python. 
 
-## Goal
-The goal of this game is
+## + About the Project
+SOS is a text-based game created using python ...
 
-## Gameplay Scenario
-As a trash sorter, your objective is to sort as much trash as possible within the limited amount of oxygen you have. You will start with a full oxygen tank, which will slowly deplete over time. To replenish your oxygen, you must correctly sort the trash into the corresponding bins.
+## + Objective
+The game has been designed to promote the United Nations' Sustainable Development Goals (SDG) 12 and 13: Responsible Consumption and Production and Climate Action. It aims to create awareness about the importance of waste management and how small steps in our everyday life can help in reducing pollution. It aims to teach the player the art of sorting waste so perfectly that sorting itself becomes second nature.
 
-## Modules Used
+## + Gameplay Scenario
+You live in a post-apocaliptic where you have to ...
+
+## + Modules Used
 Make sure you have the following modules installed before running the game:
 ###### If you have Python3+ , you only have to install pandas
 
@@ -40,17 +34,19 @@ If you don't have the modules:
 - Search for "Command Propmt" on your search bar
 - Then type: 
 - pandas: ```pip3 install pandas``` 
-- random :```pip install random``` 
+- random : ```pip install random``` 
 
 
 
-## Plans for the game
-- More waste types
-- Have a settings option where the user can control the difficulty
-- More waste types 
+## + Plans for the game
+- More specific waste_types and more questions 
+- Add settings: The user can control the intial amount of oxygen tank(time) and how much you lose or gain per answer. 
+- If settings is implemented, a sorted highscore
+- Add sound using playsound module
 
-## Contributors 
-- [Viviene Marie C. Garcia (21-51308)] ()
+
+## + Contributors 
+- [Viviene Marie C. Garcia (21-51308)](https://github.com/VivieneGarcia)
 - Rain ()
 - Princess ()
 - Justin ()
