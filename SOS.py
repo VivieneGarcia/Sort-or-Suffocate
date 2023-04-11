@@ -5,57 +5,12 @@ import time
 
 #--------------------------------------------------------------------lists and dictionaries
 waste_types = {
-    "paper": "N",
-    "plastic": "N",
-    "glass": "N",
-    "aluminum": "N",
-    "electronics": "N",
-    "metal": "N",
-    "cigarette butts": "N",
-    "toothbrushes": "N",
-    "disposable razors": "N",
-    "straws": "N",
-    "bottle caps": "N",
-    "plastic bags": "N",
-    "styrofoam": "N",
-    "bubble wrap": "N",
-    "plastic utensils": "N",
-    "tape": "N",
-    "CDs and DVDs": "N",
-    "printer cartridges": "N",
-    "cell phones": "N",
-    "batteries": "N",
-    "light bulbs": "N",
-    "paint": "N",
-    "solvents": "N",
-    "aerosol cans": "N",
-    "motor oil": "N",
-    "tires": "N",
-    "fruit scraps": "B",
-    "coffee grounds": "B",
-    "tea bags": "B",
-    "eggshells": "B",
-    "grass clippings": "B",
-    "leaves": "B",
-    "tree branches": "B",
-    "food waste": "B",
-    "manure": "B",
-    "hair and fur": "B",
-    "wool clothing": "B",
-    "paper napkins": "B",
-    "cardboard": "N",
-    "strapping": "N",
-    "film plastic": "N",
-    "rigid plastic": "N",
-    "foam rubber": "N",
-    "ceramics": "N",
-    "crayons": "N",
-    "cosmetics": "N",
-    "dental floss": "N",
-    "fire extinguishers": "N",
-    "fishing line": "N",
-    "floor wax": "N",
-    "insecticides": "N"
+    "paper": "N","plastic": "N","glass": "N","aluminum": "N","electronics": "N","metal": "N","cigarette butts": "N","toothbrushes": "N","disposable razors": "N",
+    "straws": "N","bottle caps": "N","plastic bags": "N","styrofoam": "N","bubble wrap": "N","plastic utensils": "N","tape": "N","CDs and DVDs": "N","printer cartridges": "N",
+    "cell phones": "N","batteries": "N","light bulbs": "N","paint": "N","solvents": "N","aerosol cans": "N","motor oil": "N","tires": "N","fruit scraps": "B","coffee grounds": "B",
+    "tea bags": "B","eggshells": "B","grass clippings": "B","leaves": "B","tree branches": "B","food waste": "B","manure": "B","hair and fur": "B","wool clothing": "B",
+    "paper napkins": "B","cardboard": "N","strapping": "N","film plastic": "N","rigid plastic": "N","foam rubber": "N","ceramics": "N","crayons": "N","cosmetics": "N",
+    "dental floss": "N","fire extinguishers": "N","fishing line": "N","floor wax": "N","insecticides": "N"
 }
 randomquotes = [
   "Sorting trash has never been so risky!", "Breathe deep and sort fast!", "Don't let the trash choke you out!",
@@ -113,7 +68,7 @@ def mood():
   os.system('cls')
   input("\nYou obtained 66% oxygen.")
   os.system('cls') 
-#--------------------------------------------------------------------wastebook
+#--------------------------------------------------------------------SOS INFO (Informative part)
 def page_1_story():
   os.system('cls')
   print("Story.....\n")
@@ -281,11 +236,5 @@ def play_game():
   text_file.close()
   return USERNAME, WASTE_SORTED
 
-
-  
-  
-
-    
-#--------------------------------------------------------------------execute functions
 mood()# This is just to set the "mood" for the game, like effects. You can delete this
 main() # To run the main() which is the main menu for the game. 
