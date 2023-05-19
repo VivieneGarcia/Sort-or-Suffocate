@@ -36,6 +36,13 @@ If you don't have the modules:
 - pandas: ```pip3 install pandas``` 
 - random : ```pip install random``` 
 
+## + UML Diagram
+
+<img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/UML%20DIAGRAM.png" width=30% height=30%>
+
+## + Video Presentation
+work in progress...
+
 ## + How to run the program
 To run the program, follow these steps:
 - Download the "main.py" file.
@@ -43,6 +50,8 @@ To run the program, follow these steps:
 - Import the necessary modules or libraries required by the program.
 - Run the program by executing the "main.py" file.
 - Ensure that you have Python installed on your system and that the required dependencies are available in your environment.
+
+<img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/SS%20GAME.png" width=120% height=120%>
 
 ## + Plans for the game
 - Expansion of Waste Types and Question Types: Introduce a wider range of waste types to sort, such as recyclable, hazardous, or electronic waste. Additionally, incorporate different question types (ex. multiple choice, identification, odd one out, etc.)
@@ -52,10 +61,10 @@ To run the program, follow these steps:
 
 
 ## + Contributors 
+  Section: CS 1203
 - [Viviene Marie C. Garcia (21-51308)](https://github.com/VivieneGarcia)
 - [Rain Lyrra R. Panganiban (21-05880)](https://github.com/rnlyra)
 - Princess Mae L. Delos Santos (22-03579)
 - [Justin Mae Nuñez (22-02253)](https://github.com/jstnnz)
 
-From class CS 1203
 
