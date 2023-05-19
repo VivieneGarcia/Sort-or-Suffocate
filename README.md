@@ -38,7 +38,7 @@ If you don't have the modules:
 
 ## + UML Diagram
 
-<img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/UML%20DIAGRAM.png" width=30% height=30%>
+<img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/UML%20DIAGRAM.png" width=50% height=50%>
 
 ## + Video Presentation
 work in progress...
