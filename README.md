@@ -44,7 +44,7 @@ To run the program, follow these steps:
 - Run the program by executing the "main.py" file.
 - Ensure that you have Python installed on your system and that the required dependencies are available in your environment.
 
-<img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/SS%20GAME.png" width=100% height=100%>
+<img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/SS%20GAME.png" width=35% height=40%>
 
 ## + UML Diagram
 
