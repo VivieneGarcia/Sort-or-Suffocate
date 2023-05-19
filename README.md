@@ -13,7 +13,7 @@
 
 
 ## + About the Project
-SOS is a command line application, a text-based game created in Python. It's a straightforward sorting game where your objective is to categorize trash based on its type (Biodegradable or Non-biodegradable) within a given time limit. The game keeps track of high scores and features a Wastebook filled with valuable information about waste management.
+SOS is a command line application, a text-based game created in Python. It's a simple sorting game where your objective is to sort trash based on its type (Biodegradable or Non-biodegradable) within a given time limit. The game keeps track of high scores and features a Wastebook filled with valuable information about waste management.
 
 ## + Main Objective
 The game has been designed to promote the United Nations' **Sustainable Development Goals (SDG) 12 and 13**: Responsible Consumption and Production and Climate Action. It aims to create awareness about the importance of waste management and how small steps in our everyday life can help in reducing pollution. It aims to teach the player the art of sorting waste so perfectly that sorting itself becomes second nature. 
