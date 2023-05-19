@@ -53,7 +53,7 @@ To run the program, follow these steps:
 
 ## + Contributors 
 - [Viviene Marie C. Garcia (21-51308)](https://github.com/VivieneGarcia)
-- Rain Lyrra R. Panganiban (21-05880)
+- [Rain Lyrra R. Panganiban (21-05880)](https://github.com/rnlyra)
 - Princess Mae L. Delos Santos (22-03579)
-- Justin Mae Nuñez (22-02253)
+- [Justin Mae Nuñez (22-02253)](https://github.com/jstnnz)
 
