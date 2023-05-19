@@ -57,3 +57,5 @@ To run the program, follow these steps:
 - Princess Mae L. Delos Santos (22-03579)
 - [Justin Mae Nuñez (22-02253)](https://github.com/jstnnz)
 
+From class CS 1203
+
