@@ -3,7 +3,10 @@ import pandas as pd # For storing highscores
 import os # For changing the screen
 import time # For the timer for the game
 
-#HEADS UP:  The "x1B[3m" or anything similar is to change some text's color. The wastebook is still in progress. 
+# HEADS UP!
+# - The "x1B[3m" or anything similar is to change some text's color or style (For aesthetic purposes only).  
+# - The information on the Wastebook's pages is currently in the progress. 
+
 
 def mood(): # To set the mood of the game
     os.system('cls') # Clear the screen
@@ -47,9 +50,9 @@ class Game():
         print("(3) Highscore")
         print("(4) Quit")
         print("(5) Random Quotes\n")
-        print("\"\x1B[3m" +random.choice(randomquotes)+ "\x1B[0m\"\n" ) # The "\x1B[3m"
+        print("\"\x1B[3m" +random.choice(randomquotes)+ "\x1B[0m\"\n" ) # To print italicized random quotes
         choice = input("Enter Choice: ")
-        while choice not in ['1', '2', '3','4', '5', 'q','Q','P','p','S','s','H','h']: # For error handling
+        while choice not in ['1', '2', '3','4', '5', 'q','Q','P','p','S','s','H','h']: 
           print("Invalid input. Please enter 1, 2, 3, 4, or 5")
           choice = input()
         if choice in ['1','P','p']:
@@ -265,5 +268,5 @@ class Game():
       quit()
 
 #--------------------------------------------------------------------execute functions
-mood() #run the def mood (to give the game the feel of a game)
-Game.main() #run the main screen next. its in the class Game.
+mood() # run the "def mood()" (to give the game the feel of a game)
+Game.main() # run the main screen next. its in the class Game.
