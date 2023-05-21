@@ -333,9 +333,18 @@ class Game:
 
   def page_2_info(self): 
       clear_screen()
-      print("Impact of waste on the environment.....\n") 
-      print("Dito")
-      print("Dito sa part na ito")
+      message = """Impact of waste on the environment.....
+      In recent years, environmental concerns regarding garbage and \nits effects have grown. This game aims to raise awareness of \nthe damaging impacts of waste on the environment and to underline \nthe urgent need for sustainable waste management techniques.\n
+      Some of the damaging effects of waste on our environment are: \n
+      Land & Soil Pollution:
+      Improper waste disposal, particularly non-biodegradable \nmaterials such as plastics, poses a significant threat to \nland and soil.\n
+      Water Contamination:
+      Waste mismanagement directly impacts water bodies, causing \nsevere pollution.\n
+      Air Pollution & Climate Change:
+      Waste incineration and open burning release harmful gases \nand particulate matter into the air, contributing to air pollution.\n
+      Biodiversity Loss:
+      Improper waste disposal practices, especially in natural \nhabitats and protected areas, pose a grave threat to biodiversity\n"""
+      print(message)
       
       choice_page = input("(1) Main Menu | (2) Previous Page | (3) Next Page: ")
       while choice_page not in ['1','2','3']: 
