@@ -362,8 +362,20 @@ class Game:
       
   def page_3_tips(self):
       clear_screen()
-      print("Tips for reducing waste....\n")
-      
+      message = """Tips for reducing waste....\n
+Proper waste management is essential to minimize the \nnegative impact on the environment. Here are some \ntips to help you practice effective waste management:\n
+Reduce, Reuse, Recycle: 
+Purchase only what you need, repurpose items whenever \npossible, and keep recyclable materials separate \nfrom general waste.\n
+Compost: 
+Set up a compost bin to decompose organic materials \nand use it as nutrient-rich soil for gardening.\n
+Responsible Disposal: 
+Dispose hazardous waste (batteries, electronics, \nchemicals, etc.) properly to prevent contamination.\n
+Adopt Sustainable Practices: 
+Use eco-friendly alternatives and encourage responsible \nwaste management.\n
+Participate in Community Initiatives: 
+Join local cleanup efforts and support recycling programs.\n
+Remember, effective waste management begins with \nindividual actions. By incorporating these tips into \nyour daily life, you can contribute to a cleaner, healthier \nenvironment for present and future generations.\n"""
+      print(message)
       choice_page = input("(1) Main Menu | (2) Previous Page | (3) Quit: ") 
       while choice_page not in ['1','2','3']:
         print("Invalid input. Please enter 1, 2, or 3")
