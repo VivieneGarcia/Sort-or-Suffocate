@@ -35,15 +35,15 @@ class Game:
         "JSTIN":26,
         "JASTN":29 }    
       self.biodegradable = [ 
-        'paper', 'fruit scraps', 'coffee grounds', 'tea bags', 'eggshells',
-        'grass clippings', 'leaves', 'tree branches', 'food waste', 'manure',
+        'paper', 'fruit scraps', 'coffee grounds', 'tea bag', 'eggshell',
+        'grass clipping', 'leaves', 'tree branches', 'food waste', 'manure',
         'hair and fur', 'wool clothing', 'paper napkins','cardboard']
       self.non_biodegradable = [ 
-        'plastic', 'glass', 'aluminum', 'electronics', 'metal', 'cigarette butts',
-        'toothbrushes', 'disposable razors', 'straws', 'bottle caps', 'plastic bags',
+        'plastic', 'glass', 'aluminum', 'electronic', 'metal', 'cigarette butt',
+        'toothbrushes', 'disposable razors', 'straws', 'bottle caps', 'plastic bag',
         'styrofoam', 'bubble wrap', 'plastic utensils', 'tape', 'CDs and DVDs',
-        'printer cartridges', 'cell phones', 'batteries', 'light bulbs', 'paint',
-        'solvents', 'aerosol cans', 'motor oil', 'tires', 'strapping']
+        'printer cartridge', 'cell phones', 'batteries', 'light bulbs', 'paint',
+        'solvents', 'aerosol can', 'motor oil', 'tires', 'strapping']
       self.random_quote = [ 
       "Breathe deep and sort fast!",
       "Don't let the trash choke you out!",
@@ -70,7 +70,7 @@ class Game:
         print("++| SORT OR SUFFOCATE |++")
         print("    =================")
         print("(1) PLAY SOS")
-        print("(2) SOS Lore")
+        print("(2) Wastebook")
         print("(3) Highscore")
         print("(4) Quit")
         print("(5) Random Quotes\n")
@@ -202,13 +202,15 @@ class Game:
           
           user_choice = input("Enter the Odd trash: ").lower()
           
+          time_left = round(timer-(time.time() - start_time))
+          
           if user_choice =='1':
             self.main()
             
           if user_choice.lower() == other_trash.lower():
               score += self.point
               timer += 3
-              print(f"\n\033[32mCORRECT | Trash Sorted: {score}\x1B[0m |\033[32m {round(timer-(time.time() - start_time))}% oxygen remaining\x1B[0m\n")
+              print(f"\n\033[32mCORRECT | Trash Sorted: {score}\x1B[0m |\033[32m {time_left}% oxygen remaining\x1B[0m\n")
               
               if score % int(self.cap_points) == 0:
                   self.number_of_items += 1
@@ -216,7 +218,7 @@ class Game:
           else:
               time_reduction = random.randint(10, 15)
               timer -= time_reduction
-              print(f"\n\033[31mit's {other_trash} | Trash Sorted: {score} \x1B[0m|\033[31m {round(timer-(time.time() - start_time))}% oxygen remaining\x1B[0m\n")
+              print(f"\n\033[31mit's {other_trash} | Trash Sorted: {score} \x1B[0m|\033[31m {time_left}% oxygen remaining\x1B[0m\n")
             
       if score >= win_score: 
         self.display_game_win(score)
@@ -270,7 +272,7 @@ class Game:
       sorted_scores = sorted(self.player_score.items(), key=lambda x: x[1], reverse=True)
     
       print("\n   =================")
-      print("+     TOP ++ HEROES +")
+      print("+    TOP ++ HEROES    +")
       print("   =================\n")
       print("+=====================+")
       for rank, (name, score) in enumerate(sorted_scores[:5], start=1):
@@ -285,9 +287,9 @@ class Game:
       print(" ===========")
       print("| SOS INFO  |")
       print("=============")
-      print ("| Page (1)  |Story")
-      print ("| Page (2)  |Impact of ")
-      print ("| Page (3)  |Tips")
+      print ("| Page (1)  |SOS LORE")
+      print ("| Page (2)  |Impact of Waste")
+      print ("| Page (3)  |Tips for a Green Planet")
       print ("| Page (4)  |Back to Menu")
       print ("| Page (5)  |Quit")
       print("=============")
@@ -316,8 +318,8 @@ class Game:
       print("You find yourself among the unfortunate ones, forced to participate in the SOS")
       print("Your mission is simple, to pick the trash that is unlike the others in type.")
       print("Every correct answer earns you points, but every mistake costs you oxygen.  ")
-      print("")
-      print("The government's true intention becomes clear - \nthey want to clean the earth but also reduce the human population, leaving more oxygen for themselves.")
+      print("It becomes evident that the government's true motive is twofold:")
+      print("cleaning the Earth and reducing the human population to secure more oxygen for themselves. ")
       print("Sort as much trash as you can before your oxygen runs out and help save Earth!")
       
       choice_page = input("\n(1) Main Menu | (2) Next Page: ") 
