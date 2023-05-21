@@ -240,15 +240,15 @@ class Game:
   def display_game_over(self, score):
         print("\n\n\n\n\n\n\n-----------------------------------------")
         print(f"YOU RUN OUT OF OXYGEN! You picked out", score, "odd trash") 
-        if score >= 40:
+        if 20 <= score < 27:
             print("\"So close. We hope to find someone like you again.\"")
-        elif 30 <= score < 40:
+        elif 15 <= score < 20:
             print("\"Not entirely hopeless... There's a faint glimmer of wasted potential.\"")
-        elif 20 <= score < 30:
+        elif 11 <= score < 15:
             print("\"We'll take it. Thank you for your sacrifice.\"")
-        elif 10 <= score < 20:
+        elif 6 <= score < 11:
             print("\"Barely worth salvaging. You're destined to be consumed by the trash.\"")
-        elif 5 < score < 10:
+        elif 3 < score < 6:
             print(f"\"huh? Only", score, "trash? really?\"")
         else:
             print("\"Your demise is inevitable.\"")
