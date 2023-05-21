@@ -22,7 +22,7 @@ SOS is a text-based command line game created in Python. It's a simple sorting g
 ## + Main Objective
 The game has been designed to promote the United Nations' **Sustainable Development Goals (SDG) 12 and 13**: Responsible Consumption and Production and Climate Action. It aims to create awareness about the importance of waste management and how small steps in our everyday life can help in reducing pollution. It aims to teach the player the art of sorting waste so perfectly that sorting itself becomes second nature. 
 
-<img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/SDG12-13.png" width=35% height=40%>
+<img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/SDG12-13.png" width=43% height=50%>
 
 ### + Objective 2
 This project has been designed to showcase our understanding and proficiency in Python programming by **demonstrating our knowledge of loops, data types, collections, functions, and classes**. As we delve into the development of this project, we will explore various programming concepts that we have learned so far and apply them in the context of building a  game that is both entertaining and educational. As we work on this project, we will also place a strong emphasis on **user-friendliness**. The game will be designed to be intuitive and easy to use, with clear instructions. 
@@ -68,5 +68,5 @@ work in progress...
 - [Justin Mae Nuñez (22-02253)](https://github.com/jstnnz)
 
 ## + Acknowledgements 
-We would like to express our gratitude to our Advanced Computer Programming prof, Dr. Francis Jesmar P. Montalboc, for teaching us Python programming, sharing best practices and for providing us with his helpful beginner-friendly [repository](https://github.com/francismontalbo/learning_python). His guidance have allowed us to showcase what we have learned and improve our coding skills. 
+We would like to express our gratitude to our Advanced Computer Programming prof, Dr. Francis Jesmar P. Montalbo, for teaching us Python programming, sharing best practices and for providing us with his helpful beginner-friendly [repository](https://github.com/francismontalbo/learning_python). His guidance have allowed us to showcase what we have learned and improve our coding skills. 
 
