@@ -64,7 +64,7 @@ work in progress...
   Section: CS 1203
 - [Viviene Marie C. Garcia (21-51308)](https://github.com/VivieneGarcia)
 - [Rain Lyrra R. Panganiban (21-05880)](https://github.com/rnlyra)
-- Princess Mae L. Delos Santos (22-03579)
+- [Princess Mae L. Delos Santos (22-03579)](https://github.com/princessdlssnts)
 - [Justin Mae Nuñez (22-02253)](https://github.com/jstnnz)
 - [Jastine C. Corteza (20-05802](https://github.com/jasteng)
 
