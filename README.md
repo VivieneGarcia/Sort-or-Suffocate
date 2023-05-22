@@ -25,7 +25,7 @@ The game has been designed to promote the United Nations' **Sustainable Developm
 <img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/SDG12-13.png" width=43% height=50%>
 
 ### + Objective 2
-This project has been designed to showcase our understanding and proficiency in Python programming by **demonstrating our knowledge of loops, data types, collections, functions, and classes**. As we delve into the development of this project, we will explore various programming concepts that we have learned so far and apply them in the context of building a  game that is both entertaining and educational. As we work on this project, we will also place a strong emphasis on **user-friendliness**. The game will be designed to be intuitive and easy to use, with clear instructions. 
+This project has been designed to showcase our understanding and proficiency in Python programming by **demonstrating our knowledge of loops, data types, collections, functions, and classes**. As we delve into the development of this project, we will explore various programming concepts that we have learned so far and apply them in the context of building a  game that is both entertaining and educational. As we work on this project, we will also place a strong emphasis on **user-friendliness** and the **readbility** of the code. The game will be designed to be intuitive and easy to use, with clear instructions. 
 
 ## + Modules Used
 Make sure you have the following modules installed before running the game:
@@ -66,6 +66,7 @@ work in progress...
 - [Rain Lyrra R. Panganiban (21-05880)](https://github.com/rnlyra)
 - Princess Mae L. Delos Santos (22-03579)
 - [Justin Mae Nuñez (22-02253)](https://github.com/jstnnz)
+- [Jastine C. Corteza (20-05802](https://github.com/jasteng)
 
 ## + Acknowledgements 
 We would like to express our gratitude to our Advanced Computer Programming prof, Dr. Francis Jesmar P. Montalbo, for teaching us Python programming, sharing best practices and for providing us with his helpful beginner-friendly [repository](https://github.com/francismontalbo/learning_python). His guidance have allowed us to showcase what we have learned and improve our coding skills. 
