@@ -90,7 +90,7 @@ class Game:
             print("Invalid input. Please enter 1, 2, 3, 4, or 5")
             choice = input("Enter Choice: ")
           if choice == '1':
-            self.play_menu() 
+            self.display_start_game()  
           elif choice == '2':
             self.wastebook() 
           elif choice == '3':
@@ -103,58 +103,18 @@ class Game:
               break 
 
 
-  def play_menu(self):
-      clear_screen()
-      
-      print("       ============")
-      print ("   ++| Select LEVEL |++")
-      print("       ============")
-      print("\n+=========================+")
-      print(" [1] Light, but scarce")
-      print(" [2] Middle, and steady")
-      print(" [3] Heavy, but rewarding")
-      print("+=========================+")
-      print(" [4] Main Menu")
-      
-      level = input("\n Enter Choice: ")
-      while level not in ['1', '2', '3','4']:
-        print("\nInvalid input. Please enter 1, 2, or 3")
-        level = input("\n Enter Choice: ")
-        
-      if level == '3':
-          self.number_of_items = 4
-          self.point = 3
-          self.cap_points = 9
-          self.display_start_game()
-          
-      elif level == '2':
-          self.number_of_items = 3
-          self.point = 2
-          self.cap_points = 6
-          self.display_start_game()
-          
-      elif level == '1':
-          self.number_of_items = 2
-          self.point = 1
-          self.cap_points = 3
-          self.display_start_game()  
-          
-      elif level == '4':
-          self.main()
-    
-    
   def display_start_game(self):
       clear_screen()
       print("\n    ==============================")
-      print("++|  ARE YOU READY TO GO OUTSIDE? |++")
+      print("++|  ARE YOU READY TO BE A HERO  |++")
       print("   ===============================")
       
-      press = input("\nPress (1) for Tutorial | (Enter) to Play: ")
+      press = input("\nPress (1) for Tutorial | (Enter) to Select Level: ")
       if press == '1': 
         
         self.display_tutorial()   
           
-      self.start_game() 
+      self.play_menu() 
   
   
   def display_tutorial(self):
@@ -172,10 +132,51 @@ class Game:
         print("| This is spelling-sensitive  |")
         print("| Type [1] to go back to Main |")
         print("==============================")
-        print("Press Enter to play")
+        print("Press Enter to Select Level")
         input()  
+        
           
-       
+   
+  def play_menu(self):
+      clear_screen()
+      
+      print("       ============")
+      print ("   ++| Select LEVEL |++")
+      print("       ============")
+      print("\n+=========================+")
+      print(" [1] Light, but scarce") # 3 items to choose from, 1 pt per correct answer, +1 item if score % 3 = 0
+      print(" [2] Middle, and steady") # 4 items to choose from, 2 pt per correct answer, +1 item if score % 6 = 0
+      print(" [3] Heavy, but rewarding") # 5 items to choose from, 3 pt per correct answer, +1 item if score % 9 = 0
+      print("+=========================+")
+      print(" [4] Main Menu")
+      
+      level = input("\n Enter Choice: ")
+      while level not in ['1', '2', '3','4']:
+        print("\nInvalid input. Please enter 1, 2, or 3")
+        level = input("\n Enter Choice: ")
+        
+      if level == '3':
+          self.number_of_items = 4
+          self.point = 3
+          self.cap_points = 9
+          self.start_game()
+          
+      elif level == '2':
+          self.number_of_items = 3
+          self.point = 2
+          self.cap_points = 6
+          self.start_game()
+          
+      elif level == '1':
+          self.number_of_items = 2
+          self.point = 1
+          self.cap_points = 3
+          self.start_game()  
+          
+      elif level == '4':
+          self.main()
+          
+          
   def start_game(self):
       clear_screen()
       
@@ -336,16 +337,16 @@ class Game:
   def page_2_info(self): 
       clear_screen()
       message = """Impact of waste on the environment.....
-      In recent years, environmental concerns regarding garbage and \nits effects have grown. This game aims to raise awareness of \nthe damaging impacts of waste on the environment and to underline \nthe urgent need for sustainable waste management techniques.\n
-      Some of the damaging effects of waste on our environment are: \n
-      Land & Soil Pollution:
-      Improper waste disposal, particularly non-biodegradable \nmaterials such as plastics, poses a significant threat to \nland and soil.\n
-      Water Contamination:
-      Waste mismanagement directly impacts water bodies, causing \nsevere pollution.\n
-      Air Pollution & Climate Change:
-      Waste incineration and open burning release harmful gases \nand particulate matter into the air, contributing to air pollution.\n
-      Biodiversity Loss:
-      Improper waste disposal practices, especially in natural \nhabitats and protected areas, pose a grave threat to biodiversity\n"""
+In recent years, environmental concerns regarding garbage and \nits effects have grown. This game aims to raise awareness of \nthe damaging impacts of waste on the environment and to underline \nthe urgent need for sustainable waste management techniques.\n
+Some of the damaging effects of waste on our environment are: \n
+Land & Soil Pollution:
+Improper waste disposal, particularly non-biodegradable \nmaterials such as plastics, poses a significant threat to \nland and soil.\n
+Water Contamination:
+Waste mismanagement directly impacts water bodies, causing \nsevere pollution.\n
+Air Pollution & Climate Change:
+Waste incineration and open burning release harmful gases \nand particulate matter into the air, contributing to air pollution.\n
+Biodiversity Loss:
+Improper waste disposal practices, especially in natural \nhabitats and protected areas, pose a grave threat to biodiversity\n"""
       print(message)
       
       choice_page = input("(1) Main Menu | (2) Previous Page | (3) Next Page: ")
