@@ -69,6 +69,36 @@ https://github.com/VivieneGarcia/python_SOS/assets/129963246/9bdca9fe-3066-46d6-
 - GUI (Pygame or Renpy) :)
 - Add music / sound effects
 
+## + SOS V1 versus SOS V2 (Present)
+
+**Collection of items:**
+- V1: Uses one dictionary. items = { "paper": B, "plastic": N,...} Pain-staking to type and add new items
+- V2: Uses two lists.  bio = [paper, teabags,..] and non-bio = [plastic, toothbrush..] 
+
+**Level Difficulty:**
+- V1: 3 levels (Dependent Variable: time) Harder = less time. Doesn't really makes sense for the game.
+- V2: 3 levels (Dependent Variable: number_of_items) Harder = more number of items
+
+**Gameplay:**
+- V1: The game presents only 1 item and you have to determine if it biodegradable or non-bio
+- v2: The game presents 3 or more items, determine the item that doesn't have the same type as the others
+
+**Level progression:**
+- V1: None
+- V2: increases the number of items
+
+**User Input of the answer:**
+- V1: Only 2 choices. "B" for Biodegradable, "N" for Non-Biodegradable. Prone for SPAMMING
+- V2: Type the odd item. Wrong spelling is wrong. SPAM PROOF
+
+**Storing Score:**
+- V1: Has a working database using the module pandas. Extra files (.txt)
+- V2: Temporarily stored in a dictionary. No extra files. Although Version 1 is more advantageous, we opt for simplicity with Version 2.
+
+**Data Structure:**
+- V1: Lacks a class structure. Display and functions are not separated.
+- V2: Includes a class structure where most print displays are separated from the main functions. Better readability and organization
+
 ## + Contributors 
   Section: CS 1203
 - [Viviene Marie C. Garcia (21-51308)](https://github.com/VivieneGarcia)
