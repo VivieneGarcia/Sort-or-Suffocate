@@ -52,11 +52,6 @@ To run the program, follow these steps:
 
 <img src = "https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/FINAL%20UML.png" width=270px height=490px>
 
-## + Video Presentation
-In this video, we delve into a comprehensive overview of the code for our game, covering all its aspects and functionalities. (Click the image)
-
-[![SOS CODE VIDEO PRESENTATION](https://github.com/VivieneGarcia/python_SOS/blob/main/READ%20ME%20PHOTOS/Slide1.JPG)](https://youtu.be/f8UtemSmXpE)
-
 ## + Gameplay Video 
  *(unmute for asmr) !! the sound is not included in the game*
  
